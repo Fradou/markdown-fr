@@ -1,5 +1,42 @@
 # Images
 
+'''markdown
+#Inline
+![Alternative text](/path/to/img.jpg "Optimal title")
+
+#Reference
+![Alternative text][id]
+[id]: url/to/image  "Optional title"
+
+As you may have noticed, picture in markdown are very close to links.  
+The difference is the following :
+* brackets must be preceded by an exclamation point ;
+* they may contain an alternative text, which is displayed when the picture isn't loaded.
+
+---
+
+Voilà un quizz au sujet des images dans Markdown :
+
+Selectionnez les images valides :
+- [ ] `[Google logo](https://www.google.ru/logo.png)`
+- [x] `![](https://www.google.ru/logo.png)`
+
+> Les images doivent être précédés d'un point d'exclamation.
+Le texte alternatif et le titre sont optionnels.
+
+Qu'est ce qui est bon dans la ligne suivante : '''![Funny cat]((http://cats.ru/funny.png "Partage ça")```
+- [x] si l'url est 404, "Funny cat" va être affiché.
+- [ ] le point d'exclamation peut être omis dans cette case
+- [ ] si l'url est 404, "Partage ça" va être affiché
+- [x] quand la souris passe au dessus, "Partage ça" sera affiché
+
+> De la même manière que pour les liens, les images peuvent avoir 3 parties : le texte alternatif, l'url et la titre. Un point d'exlamation est nécessaire.
+
+---
+
+
+# Images
+
 ```markdown
 # Inline
 ![Alternative text](/path/to/img.jpg "Optional title")
